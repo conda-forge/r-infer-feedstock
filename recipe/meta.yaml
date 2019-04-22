@@ -1,4 +1,4 @@
-{% set version = '0.4.0' %}
+{% set version = "0.4.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/infer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/infer/infer_{{ version }}.tar.gz
-  sha256: c29e4927e67cb955340f069b9847d6a431b9f47c7d6fea687edacfd673a4f907
+  sha256: 3601cce61059252525503ad4ce546d432f3383623ea583fca2d7a15cf70f8b4e
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
