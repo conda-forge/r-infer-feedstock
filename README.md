@@ -7,7 +7,7 @@ Package license: CC0
 
 Feedstock license: BSD 3-Clause
 
-Summary: The objective of this package is to perform inference using an expressive statistical grammar that coheres with the tidy design framework. 
+Summary: The objective of this package is to perform inference using an expressive statistical grammar that coheres with the tidy design framework.
 
 
 
