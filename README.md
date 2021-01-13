@@ -5,11 +5,9 @@ Home: https://github.com/tidymodels/infer
 
 Package license: CC0-1.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-infer-feedstock/blob/master/LICENSE.txt)
 
 Summary: The objective of this package is to perform inference using an expressive statistical grammar that coheres with the tidy design framework.
-
-
 
 Current build status
 ====================
