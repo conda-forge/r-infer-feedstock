@@ -1,4 +1,4 @@
-{% set version = "0.5.4" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/infer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/infer/infer_{{ version }}.tar.gz
-  sha256: 82233682fa95952c494273f9d070ee67d6c583690a7fc950a2f86c0f257e7b73
+  sha256: a6ea45451feddfe96e689e00a150b96354248300927a1fafe56f2f2c8f6577e1
 
 build:
   merge_build_host: true  # [win]
