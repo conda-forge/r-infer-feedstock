@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/infer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/infer/infer_{{ version }}.tar.gz
-  sha256: a6ea45451feddfe96e689e00a150b96354248300927a1fafe56f2f2c8f6577e1
+  sha256: d7e6e65f5387514762d5ac6693f94865d3ac72042846636668485dbe25edd961
 
 build:
   merge_build_host: true  # [win]
@@ -58,10 +58,13 @@ test:
 
 about:
   home: https://github.com/tidymodels/infer
-  license: CC0-1.0
+  license: MIT
   summary: The objective of this package is to perform inference using an expressive statistical grammar that coheres with the tidy design framework.
   license_family: CC
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
+    - LICENSE
 extra:
   recipe-maintainers:
     - conda-forge/r
