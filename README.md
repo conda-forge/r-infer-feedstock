@@ -1,11 +1,11 @@
-About r-infer
-=============
+About r-infer-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-infer-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/tidymodels/infer
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-infer-feedstock/blob/main/LICENSE.txt)
 
 Summary: The objective of this package is to perform inference using an expressive statistical grammar that coheres with the tidy design framework.
 
