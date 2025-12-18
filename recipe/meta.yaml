@@ -1,4 +1,4 @@
-{% set version = "1.0.9" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/infer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/infer/infer_{{ version }}.tar.gz
-  sha256: b2499939e65be664ede41a908e4ded6c3c00ffeb1100cab1ee3401201d94aa3c
+  sha256: 22865e3801b7e2811ec62a126c7134af52fd894d9b8f0f95ec4fb62a7060ab6c
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
